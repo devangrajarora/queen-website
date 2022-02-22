@@ -231,6 +231,10 @@ button {
     max-width: 100%;
 }
 
+.cart-header {
+    display: flex;
+}
+
 .cart-row {
     display: flex;
 }
@@ -248,6 +252,7 @@ button {
     color: #333;
     font-weight: bold;
     font-size: 1.2em;
+    display: flex;
 }
 
 .cart-element {
@@ -286,14 +291,14 @@ button {
     margin: 5px;
 }
 
-.cart-quantity-btn {
+.cart-remove-btn {
     color: white;
     background-color: #EB5757;
     border: none;
     margin: 5px;
 }
 
-.cart-quantity-btn:hover {
+.cart-remove-btn:hover {
     background-color: red;
 }
 
